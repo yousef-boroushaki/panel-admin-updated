@@ -1,0 +1,19 @@
+[{
+    "ProductName":"ipad 2021",
+    "Rate": "$1000",
+    "QTY": "10 Pcs",
+    "Amount": "$10.000"
+},
+{
+    "ProductName":"Apple Mackbook",
+    "Rate": "$1500",
+    "QTY": "10 Pcs",
+    "Amount": "$150.000"
+},
+{
+    "ProductName":"i phone 12",
+    "Rate": "$885",
+    "QTY": "10 Pcs",
+    "Amount": "$8850"
+}
+]
