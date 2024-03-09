@@ -3,10 +3,7 @@ import { styled, useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import MuiDrawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -14,7 +11,6 @@ import ListItemText from "@mui/material/ListItemText";
 import GridViewRoundedIcon from "@mui/icons-material/GridViewRounded";
 import InsertChartIcon from "@mui/icons-material/InsertChart";
 import SettingsIcon from "@mui/icons-material/Settings";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import PunchClockRoundedIcon from "@mui/icons-material/PunchClockRounded";
 import ConfirmationNumberIcon from "@mui/icons-material/ConfirmationNumber";
 import { Link } from "react-router-dom";
@@ -277,42 +273,6 @@ export default function SideBar() {
                 </ListItemIcon>
                 <ListItemText
                   primary={"Schedule"}
-                  sx={{ opacity: open ? 1 : 0 }}
-                />
-              </ListItemButton>
-            </ListItem>
-          </Link>
-        </List>
-        <List>
-          <Link
-            to={"/calender"}
-            style={{ color: "black", textDecoration: "none" }}
-            onMouseOver={(e) => {
-              e.target.style.color = "blue";
-            }}
-            onMouseOut={(e) => {
-              e.target.style.color = "black";
-            }}
-          >
-            <ListItem disablePadding sx={{ display: "block" }}>
-              <ListItemButton
-                sx={{
-                  minHeight: 48,
-                  justifyContent: open ? "initial" : "center",
-                  px: 2.5,
-                }}
-              >
-                <ListItemIcon
-                  sx={{
-                    minWidth: 0,
-                    mr: open ? 3 : "auto",
-                    justifyContent: "center",
-                  }}
-                >
-                  <CalendarMonthIcon />
-                </ListItemIcon>
-                <ListItemText
-                  primary={"Calender"}
                   sx={{ opacity: open ? 1 : 0 }}
                 />
               </ListItemButton>

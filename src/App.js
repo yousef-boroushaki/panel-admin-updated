@@ -13,7 +13,6 @@ import Schedule from "./Pages/Schedule";
 import ScheduleList from "./Pages/Schedule/ScheduleList";
 import Setting from "./Pages/Setting";
 import ScheduleStatus from "./Pages/Schedule/ScheduleStatus";
-import Calendar from "./Pages/Calendar";
 export default function App() {
   const { token } = useSelector((state) => state.auth);
   return (
@@ -32,7 +31,6 @@ export default function App() {
         <Route path="/schedule/list" element={<ScheduleList />} />
         <Route path="/schedule/status" element={<ScheduleStatus />} />
         <Route path="/setting" element={<Setting />} />
-        <Route path="/calender" element={<Calendar />} />
 
         <Route path="/login-register" element={<LoginRegister />} />
       </Routes>
