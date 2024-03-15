@@ -1,0 +1,52 @@
+{
+  "Task1": [
+    {
+      "TaskName": "Ui Design",
+      "StartDate": "03/12/2021",
+      "EndDate": "5/12/2021",
+      "Member": "5",
+      "Status": "Pending",
+      "Image":"Assets/images/schedule/status/todo1.png"
+    },
+    {
+      "TaskName": "Logo Design",
+      "StartDate": "03/12/2021",
+      "EndDate": "5/12/2021",
+      "Member": "5",
+      "Status": "Pending",
+      "Image":"Assets/images/schedule/status/todo2.png"
+    }
+  ],
+  "Task2": [
+    {
+      "TaskName": "Graphic Design",
+      "StartDate": "03/12/2021",
+      "EndDate": "5/12/2021",
+      "Member": "5",
+      "Status": "Running"
+    },
+    {
+      "TaskName": "Web Design",
+      "StartDate": "03/12/2021",
+      "EndDate": "5/12/2021",
+      "Member": "5",
+      "Status": "Running"
+    }
+  ],
+  "Task3": [
+    {
+      "TaskName": "Logo Design",
+      "StartDate": "03/12/2021",
+      "EndDate": "5/12/2021",
+      "Member": "5",
+      "Status": "Done"
+    },
+    {
+      "TaskName": "Web Design",
+      "StartDate": "03/12/2021",
+      "EndDate": "5/12/2021",
+      "Member": "5",
+      "Status": "Done"
+    }
+  ]
+}
